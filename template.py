@@ -1,6 +1,6 @@
 import os
 from pathlib import Path
-from src.logger import logger
+from src.textSummarizer.logging import logger
 
 project_name = "textSummarizer"
 

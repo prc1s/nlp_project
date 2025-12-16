@@ -29,3 +29,11 @@ class ModelTrainerConfig:
     eval_steps: int
     save_steps: int
     gradiant_accumulation_steps: int 
+
+@dataclass
+class ModelEvaluationConfig:
+    root_dir: Path
+    data_path: Path
+    model_path: Path
+    tokenizer_path: Path
+    metric_file_name: Path
